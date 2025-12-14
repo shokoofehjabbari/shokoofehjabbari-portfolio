@@ -20,10 +20,10 @@
     </style>
 </head>
 <body class="bg-gray text-navy">
-    <!-- Modern Sticky Nav -->
-    <nav class="fixed top-0 w-full bg-white/95 backdrop-blur-md shadow-lg z-50 py-6">
+    <!-- Darker Navy Header for better logo contrast -->
+    <nav class="fixed top-0 w-full bg-navy/90 text-white backdrop-blur-md shadow-lg z-50 py-6">
         <div class="max-w-7xl mx-auto px-8 flex justify-between items-center">
-            <img src="logo.svg" alt="Shokoofeh Jabbari Logo" class="h-16"> <!-- CUSTOM LOGO HERE -->
+            <img src="logo.svg" alt="Shokoofeh Jabbari Logo" class="h-16">
             <ul class="hidden md:flex space-x-12 text-lg">
                 <li><a href="#portfolio" class="hover:text-gold transition">Portfolio</a></li>
                 <li><a href="#about" class="hover:text-gold transition">About</a></li>
@@ -33,7 +33,7 @@
         </div>
     </nav>
 
-    <!-- Hero Section (Improved with subtle overlay) -->
+    <!-- Hero Section -->
     <section class="h-screen flex items-center justify-center relative">
         <div class="absolute inset-0 placeholder">
             <p class="text-3xl">Hero Video Placeholder<br>(Upload your background video later)</p>
@@ -45,7 +45,7 @@
         </div>
     </section>
 
-    <!-- Portfolio (All 19 projects from her site, with modern hover cards) -->
+    <!-- Portfolio -->
     <section id="portfolio" class="py-24 px-8 max-w-7xl mx-auto">
         <h2 class="text-5xl font-bold text-center mb-20">Portfolio</h2>
         <div class="grid md:grid-cols-3 gap-12">
@@ -71,7 +71,7 @@
         </div>
     </section>
 
-    <!-- About Section (Clean & Centered) -->
+    <!-- About Section -->
     <section id="about" class="py-24 bg-gray px-8">
         <div class="max-w-4xl mx-auto text-center">
             <h2 class="text-5xl font-bold mb-12">About</h2>
@@ -79,11 +79,11 @@
         </div>
     </section>
 
-    <!-- Contact Form (Modern & Functional) -->
+    <!-- Contact Form -->
     <section id="contact" class="py-24 px-8 bg-white">
         <div class="max-w-2xl mx-auto">
             <h2 class="text-5xl font-bold text-center mb-12">Contact</h2>
-            <form action="https://formspree.io/f/your-endpoint-here" method="POST" class="space-y-8"> <!-- Replace with Formspree endpoint -->
+            <form action="https://formspree.io/f/your-endpoint-here" method="POST" class="space-y-8">
                 <input type="text" name="name" placeholder="Name" class="w-full p-6 border-2 border-navy rounded-xl text-lg" required>
                 <input type="email" name="email" placeholder="Email" class="w-full p-6 border-2 border-navy rounded-xl text-lg" required>
                 <textarea name="message" rows="8" placeholder="Message" class="w-full p-6 border-2 border-navy rounded-xl text-lg" required></textarea>
@@ -103,8 +103,8 @@
             document.documentElement.dir = isFa ? 'rtl' : 'ltr';
             document.documentElement.lang = isFa ? 'fa' : 'en';
             document.getElementById('tagline').textContent = isFa ? 'فیلمساز، انیماتور، هنرمند کلاژ، نویسنده، شاعر' : 'Filmmaker, Animator, Collage artist, Writer, Poet';
-            // Add more Persian translations here later if needed
         });
     </script>
 </body>
 </html>
+
