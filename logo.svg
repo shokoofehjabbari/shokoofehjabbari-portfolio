@@ -1,0 +1,37 @@
+<svg width="300" height="100" viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background (optional subtle gradient) -->
+  <defs>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFD700" />
+      <stop offset="100%" stop-color="#FFA500" />
+    </linearGradient>
+  </defs>
+
+  <!-- Film reel + brushstroke symbol on the left -->
+  <g transform="translate(20,50)">
+    <!-- Film reel circles -->
+    <circle cx="0" cy="0" r="18" fill="none" stroke="#001F3F" stroke-width="4"/>
+    <circle cx="0" cy="0" r="12" fill="none" stroke="#001F3F" stroke-width="3" stroke-dasharray="5,5"/>
+    <!-- Brushstroke curve -->
+    <path d="M -10,-30 Q 20,0 0,30" fill="none" stroke="url(#goldGradient)" stroke-width="8" stroke-linecap="round" opacity="0.8"/>
+    <path d="M -5,-25 Q 18,0 5,25" fill="none" stroke="#FFD700" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Name in English -->
+  <text x="80" y="45" font-family="Satoshi, Arial, sans-serif" font-size="28" font-weight="bold" fill="#001F3F">
+    Shokoofeh
+  </text>
+  <text x="80" y="78" font-family="Satoshi, Arial, sans-serif" font-size="28" font-weight="bold" fill="#001F3F">
+    Jabbari
+  </text>
+
+  <!-- Persian name (شکوفه جباری) below in gold -->
+  <text x="300" y="85" font-family="Vazirmatn, Arial, sans-serif" font-size="20" fill="#FFD700" text-anchor="end">
+    شکوفه جباری
+  </text>
+
+  <!-- Subtle tagline -->
+  <text x="300" y="65" font-family="Satoshi, Arial, sans-serif" font-size="12" fill="#001F3F" text-anchor="end" opacity="0.8">
+    Filmmaker & Artist
+  </text>
+</svg>
