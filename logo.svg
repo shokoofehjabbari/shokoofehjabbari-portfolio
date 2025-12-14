@@ -1,28 +1,23 @@
-<svg width="400" height="120" viewBox="0 0 400 120" xmlns="http://www.w3.org/2000/svg">
-  <!-- Film reel + brushstroke symbol -->
-  <g transform="translate(40,60)">
-    <circle cx="0" cy="0" r="25" fill="none" stroke="#001F3F" stroke-width="6"/>
-    <circle cx="0" cy="0" r="18" fill="none" stroke="#001F3F" stroke-width="4" stroke-dasharray="8,8"/>
-    <circle cx="0" cy="0" r="8" fill="#001F3F"/>
-    <path d="M -20,-40 Q 30,0 0,40" fill="none" stroke="#FFD700" stroke-width="12" stroke-linecap="round"/>
-    <path d="M -15,-35 Q 28,0 5,35" fill="none" stroke="#FFA500" stroke-width="8" stroke-linecap="round"/>
-  </g>
+<svg width="350" height="100" viewBox="0 0 350 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Symbol: Film reel -->
+  <circle cx="40" cy="50" r="30" fill="none" stroke="#001F3F" stroke-width="8"/>
+  <circle cx="40" cy="50" r="20" fill="none" stroke="#001F3F" stroke-width="6" stroke-dasharray="10,10"/>
+  <circle cx="40" cy="50" r="10" fill="#001F3F"/>
+
+  <!-- Brushstroke: Simple gold lines -->
+  <line x1="10" y1="20" x2="70" y2="50" stroke="#FFD700" stroke-width="12" stroke-linecap="round"/>
+  <line x1="20" y1="80" x2="70" y2="50" stroke="#FFD700" stroke-width="12" stroke-linecap="round"/>
 
   <!-- English Name -->
-  <text x="120" y="50" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#001F3F">
+  <text x="100" y="45" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="bold" fill="#001F3F">
     Shokoofeh
   </text>
-  <text x="120" y="90" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#001F3F">
+  <text x="100" y="80" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="bold" fill="#001F3F">
     Jabbari
   </text>
 
   <!-- Persian Name -->
-  <text x="380" y="80" font-family="Arial, sans-serif" font-size="28" fill="#FFD700" text-anchor="end">
+  <text x="340" y="70" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#FFD700" text-anchor="end">
     شکوفه جباری
-  </text>
-
-  <!-- Tagline -->
-  <text x="380" y="105" font-family="Arial, sans-serif" font-size="14" fill="#001F3F" text-anchor="end">
-    Filmmaker & Artist
   </text>
 </svg>
