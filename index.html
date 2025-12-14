@@ -3,12 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shokoofeh Jabbari - Filmmaker, Animator, Collage Artist, Writer, Poet</title>
+    <title>Shokoofeh Jabbari - Filmmaker & Artist</title>
     <link href="https://fonts.googleapis.com/css2?family=Satoshi:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
-            theme: { extend: { colors: { navy: '#001F3F', gold: '#FFD700', gray: '#F5F5F5' } } }
+            theme: {
+                extend: {
+                    colors: {
+                        teal: '#0D9488',
+                        tealDark: '#134E4A',
+                        gold: '#FFD700',
+                        pink: '#F472B6',
+                        purple: '#A78BFA',
+                        grayLight: '#F3F4F6',
+                        navy: '#1E293B'
+                    }
+                }
+            }
         }
     </script>
     <style>
@@ -19,9 +31,9 @@
         .placeholder { background: #e0e0e0; display: flex; align-items: center; justify-content: center; color: #666; font-style: italic; }
     </style>
 </head>
-<body class="bg-gray text-navy">
-    <!-- Dark Navy Header -->
-    <nav class="fixed top-0 w-full bg-navy/90 text-white backdrop-blur-md shadow-lg z-50 py-6">
+<body class="bg-grayLight text-navy">
+    <!-- Colorful Teal Gradient Header -->
+    <nav class="fixed top-0 w-full bg-gradient-to-r from-teal to-tealDark text-white shadow-lg z-50 py-6">
         <div class="max-w-7xl mx-auto px-8 flex justify-between items-center">
             <img src="logo.svg" alt="Shokoofeh Jabbari Logo" class="h-16">
             <ul class="hidden md:flex space-x-12 text-lg">
@@ -33,12 +45,12 @@
         </div>
     </nav>
 
-    <!-- Hero Section with Short Biography at Top -->
-    <section class="h-screen flex items-center justify-center relative">
+    <!-- Hero with Pink/Purple Accent -->
+    <section class="h-screen flex items-center justify-center relative bg-gradient-to-b from-purple/20 to-pink/20">
         <div class="absolute inset-0 placeholder">
             <p class="text-3xl">Hero Video Placeholder<br>(Upload your background video later)</p>
         </div>
-        <div class="absolute inset-0 bg-navy/60"></div>
+        <div class="absolute inset-0 bg-gradient-to-b from-teal/40 to-purple/40"></div>
         <div class="relative z-10 text-center text-white px-8 max-w-4xl">
             <h2 class="text-5xl md:text-7xl font-bold mb-8">Shokoofeh Jabbari</h2>
             <p id="tagline" class="text-2xl md:text-4xl mb-8">Filmmaker, Animator, Collage artist, Writer, Poet</p>
@@ -47,36 +59,35 @@
     </section>
 
     <!-- Portfolio -->
-    <section id="portfolio" class="py-24 px-8 max-w-7xl mx-auto">
-        <h2 class="text-5xl font-bold text-center mb-20">Portfolio</h2>
+    <section id="portfolio" class="py-24 px-8 max-w-7xl mx-auto bg-white">
+        <h2 class="text-5xl font-bold text-center mb-20 text-tealDark">Portfolio</h2>
         <div class="grid md:grid-cols-3 gap-12">
-            <!-- Your 19 placeholders -->
-            <div class="portfolio-item rounded-2xl overflow-hidden shadow-xl"><div class="h-80 placeholder text-2xl">Video/Image Placeholder</div><p class="p-6 text-center text-xl font-semibold bg-white">THE FOOD IS READY</p></div>
-            <div class="portfolio-item rounded-2xl overflow-hidden shadow-xl"><div class="h-80 placeholder text-2xl">Video/Image Placeholder</div><p class="p-6 text-center text-xl font-semibold bg-white">THE BELL (Zangooleh)</p></div>
-            <div class="portfolio-item rounded-2xl overflow-hidden shadow-xl"><div class="h-80 placeholder text-2xl">Video/Image Placeholder</div><p class="p-6 text-center text-xl font-semibold bg-white">TAREK</p></div>
-            <div class="portfolio-item rounded-2xl overflow-hidden shadow-xl"><div class="h-80 placeholder text-2xl">Video/Image Placeholder</div><p class="p-6 text-center text-xl font-semibold bg-white">THE BLUE APPLE</p></div>
-            <div class="portfolio-item rounded-2xl overflow-hidden shadow-xl"><div class="h-80 placeholder text-2xl">Video/Image Placeholder</div><p class="p-6 text-center text-xl font-semibold bg-white">TASYAN</p></div>
-            <div class="portfolio-item rounded-2xl overflow-hidden shadow-xl"><div class="h-80 placeholder text-2xl">Video/Image Placeholder</div><p class="p-6 text-center text-xl font-semibold bg-white">THE DUCK AND DANDELION</p></div>
-            <div class="portfolio-item rounded-2xl overflow-hidden shadow-xl"><div class="h-80 placeholder text-2xl">Video/Image Placeholder</div><p class="p-6 text-center text-xl font-semibold bg-white">VR Storytelling – Group Work</p></div>
-            <div class="portfolio-item rounded-2xl overflow-hidden shadow-xl"><div class="h-80 placeholder text-2xl">Video/Image Placeholder</div><p class="p-6 text-center text-xl font-semibold bg-white">Shokoofeh’s world- VR Gallery</p></div>
-            <div class="portfolio-item rounded-2xl overflow-hidden shadow-xl"><div class="h-80 placeholder text-2xl">Video/Image Placeholder</div><p class="p-6 text-center text-xl font-semibold bg-white">Hope Interview</p></div>
-            <div class="portfolio-item rounded-2xl overflow-hidden shadow-xl"><div class="h-80 placeholder text-2xl">Video/Image Placeholder</div><p class="p-6 text-center text-xl font-semibold bg-white">How a man carries the memory of the war</p></div>
-            <div class="portfolio-item rounded-2xl overflow-hidden shadow-xl"><div class="h-80 placeholder text-2xl">Video/Image Placeholder</div><p class="p-6 text-center text-xl font-semibold bg-white">ANIMATION AND MIX MEDIA</p></div>
-            <div class="portfolio-item rounded-2xl overflow-hidden shadow-xl"><div class="h-80 placeholder text-2xl">Video/Image Placeholder</div><p class="p-6 text-center text-xl font-semibold bg-white">THE BODY REMEMBERS</p></div>
-            <div class="portfolio-item rounded-2xl overflow-hidden shadow-xl"><div class="h-80 placeholder text-2xl">Video/Image Placeholder</div><p class="p-6 text-center text-xl font-semibold bg-white">LADY ON FIRE</p></div>
-            <div class="portfolio-item rounded-2xl overflow-hidden shadow-xl"><div class="h-80 placeholder text-2xl">Video/Image Placeholder</div><p class="p-6 text-center text-xl font-semibold bg-white">PORTRAIT OF SUN</p></div>
-            <div class="portfolio-item rounded-2xl overflow-hidden shadow-xl"><div class="h-80 placeholder text-2xl">Video/Image Placeholder</div><p class="p-6 text-center text-xl font-semibold bg-white">COLLAGE ART</p></div>
-            <div class="portfolio-item rounded-2xl overflow-hidden shadow-xl"><div class="h-80 placeholder text-2xl">Video/Image Placeholder</div><p class="p-6 text-center text-xl font-semibold bg-white">Fellow Traveller of Love</p></div>
-            <div class="portfolio-item rounded-2xl overflow-hidden shadow-xl"><div class="h-80 placeholder text-2xl">Video/Image Placeholder</div><p class="p-6 text-center text-xl font-semibold bg-white">Watching the governance of objects_ Recycle Bin</p></div>
-            <div class="portfolio-item rounded-2xl overflow-hidden shadow-xl"><div class="h-80 placeholder text-2xl">Video/Image Placeholder</div><p class="p-6 text-center text-xl font-semibold bg-white">POETRY</p></div>
-            <div class="portfolio-item rounded-2xl overflow-hidden shadow-xl"><div class="h-80 placeholder text-2xl">Video/Image Placeholder</div><p class="p-6 text-center text-xl font-semibold bg-white">Teaching</p></div>
+            <div class="portfolio-item rounded-2xl overflow-hidden shadow-xl"><div class="h-80 placeholder text-2xl">Video/Image Placeholder</div><p class="p-6 text-center text-xl font-semibold bg-grayLight">THE FOOD IS READY</p></div>
+            <div class="portfolio-item rounded-2xl overflow-hidden shadow-xl"><div class="h-80 placeholder text-2xl">Video/Image Placeholder</div><p class="p-6 text-center text-xl font-semibold bg-grayLight">THE BELL (Zangooleh)</p></div>
+            <div class="portfolio-item rounded-2xl overflow-hidden shadow-xl"><div class="h-80 placeholder text-2xl">Video/Image Placeholder</div><p class="p-6 text-center text-xl font-semibold bg-grayLight">TAREK</p></div>
+            <div class="portfolio-item rounded-2xl overflow-hidden shadow-xl"><div class="h-80 placeholder text-2xl">Video/Image Placeholder</div><p class="p-6 text-center text-xl font-semibold bg-grayLight">THE BLUE APPLE</p></div>
+            <div class="portfolio-item rounded-2xl overflow-hidden shadow-xl"><div class="h-80 placeholder text-2xl">Video/Image Placeholder</div><p class="p-6 text-center text-xl font-semibold bg-grayLight">TASYAN</p></div>
+            <div class="portfolio-item rounded-2xl overflow-hidden shadow-xl"><div class="h-80 placeholder text-2xl">Video/Image Placeholder</div><p class="p-6 text-center text-xl font-semibold bg-grayLight">THE DUCK AND DANDELION</p></div>
+            <div class="portfolio-item rounded-2xl overflow-hidden shadow-xl"><div class="h-80 placeholder text-2xl">Video/Image Placeholder</div><p class="p-6 text-center text-xl font-semibold bg-grayLight">VR Storytelling – Group Work</p></div>
+            <div class="portfolio-item rounded-2xl overflow-hidden shadow-xl"><div class="h-80 placeholder text-2xl">Video/Image Placeholder</div><p class="p-6 text-center text-xl font-semibold bg-grayLight">Shokoofeh’s world- VR Gallery</p></div>
+            <div class="portfolio-item rounded-2xl overflow-hidden shadow-xl"><div class="h-80 placeholder text-2xl">Video/Image Placeholder</div><p class="p-6 text-center text-xl font-semibold bg-grayLight">Hope Interview</p></div>
+            <div class="portfolio-item rounded-2xl overflow-hidden shadow-xl"><div class="h-80 placeholder text-2xl">Video/Image Placeholder</div><p class="p-6 text-center text-xl font-semibold bg-grayLight">How a man carries the memory of the war</p></div>
+            <div class="portfolio-item rounded-2xl overflow-hidden shadow-xl"><div class="h-80 placeholder text-2xl">Video/Image Placeholder</div><p class="p-6 text-center text-xl font-semibold bg-grayLight">ANIMATION AND MIX MEDIA</p></div>
+            <div class="portfolio-item rounded-2xl overflow-hidden shadow-xl"><div class="h-80 placeholder text-2xl">Video/Image Placeholder</div><p class="p-6 text-center text-xl font-semibold bg-grayLight">THE BODY REMEMBERS</p></div>
+            <div class="portfolio-item rounded-2xl overflow-hidden shadow-xl"><div class="h-80 placeholder text-2xl">Video/Image Placeholder</div><p class="p-6 text-center text-xl font-semibold bg-grayLight">LADY ON FIRE</p></div>
+            <div class="portfolio-item rounded-2xl overflow-hidden shadow-xl"><div class="h-80 placeholder text-2xl">Video/Image Placeholder</div><p class="p-6 text-center text-xl font-semibold bg-grayLight">PORTRAIT OF SUN</p></div>
+            <div class="portfolio-item rounded-2xl overflow-hidden shadow-xl"><div class="h-80 placeholder text-2xl">Video/Image Placeholder</div><p class="p-6 text-center text-xl font-semibold bg-grayLight">COLLAGE ART</p></div>
+            <div class="portfolio-item rounded-2xl overflow-hidden shadow-xl"><div class="h-80 placeholder text-2xl">Video/Image Placeholder</div><p class="p-6 text-center text-xl font-semibold bg-grayLight">Fellow Traveller of Love</p></div>
+            <div class="portfolio-item rounded-2xl overflow-hidden shadow-xl"><div class="h-80 placeholder text-2xl">Video/Image Placeholder</div><p class="p-6 text-center text-xl font-semibold bg-grayLight">Watching the governance of objects_ Recycle Bin</p></div>
+            <div class="portfolio-item rounded-2xl overflow-hidden shadow-xl"><div class="h-80 placeholder text-2xl">Video/Image Placeholder</div><p class="p-6 text-center text-xl font-semibold bg-grayLight">POETRY</p></div>
+            <div class="portfolio-item rounded-2xl overflow-hidden shadow-xl"><div class="h-80 placeholder text-2xl">Video/Image Placeholder</div><p class="p-6 text-center text-xl font-semibold bg-grayLight">Teaching</p></div>
         </div>
     </section>
 
-    <!-- Full Detailed Biography -->
-    <section id="about" class="py-24 bg-gray px-8">
+    <!-- About with Soft Pink Accent -->
+    <section id="about" class="py-24 bg-pink/10 px-8">
         <div class="max-w-4xl mx-auto">
-            <h2 class="text-5xl font-bold text-center mb-12">Biography</h2>
+            <h2 class="text-5xl font-bold text-center mb-12 text-tealDark">Biography</h2>
             <div class="text-lg leading-relaxed space-y-6">
                 <p>I am an experimental filmmaker, animator, poet, writer, and collage artist working across cinema, literature, and interdisciplinary media. Born and raised in Iran, I hold an M.F.A. in Filmmaking from Syracuse University, an M.A. in Dramatic Literature from Tarbiat Modares University in Tehran, a B.A. in Cinema, and an Associate Degree in Graphic Design.</p>
                 <p>I am currently an instructor in Film and Media Arts at Syracuse University, where I teach <em>Making Media: Fundamentals</em> and have served as a teaching assistant and mentor across undergraduate and pre-college programs. In Iran, I taught performing arts and art history, guiding students in filmmaking, performance, literature, and creative expression.</p>
@@ -95,20 +106,20 @@
         </div>
     </section>
 
-    <!-- Contact -->
-    <section id="contact" class="py-24 px-8 bg-white">
+    <!-- Contact with Purple Accent -->
+    <section id="contact" class="py-24 px-8 bg-purple/10">
         <div class="max-w-2xl mx-auto">
-            <h2 class="text-5xl font-bold text-center mb-12">Contact</h2>
+            <h2 class="text-5xl font-bold text-center mb-12 text-tealDark">Contact</h2>
             <form action="https://formspree.io/f/your-endpoint-here" method="POST" class="space-y-8">
-                <input type="text" name="name" placeholder="Name" class="w-full p-6 border-2 border-navy rounded-xl text-lg" required>
-                <input type="email" name="email" placeholder="Email" class="w-full p-6 border-2 border-navy rounded-xl text-lg" required>
-                <textarea name="message" rows="8" placeholder="Message" class="w-full p-6 border-2 border-navy rounded-xl text-lg" required></textarea>
+                <input type="text" name="name" placeholder="Name" class="w-full p-6 border-2 border-teal rounded-xl text-lg" required>
+                <input type="email" name="email" placeholder="Email" class="w-full p-6 border-2 border-teal rounded-xl text-lg" required>
+                <textarea name="message" rows="8" placeholder="Message" class="w-full p-6 border-2 border-teal rounded-xl text-lg" required></textarea>
                 <button type="submit" class="w-full bg-gold text-navy py-6 rounded-xl text-2xl font-bold hover:bg-yellow-300 transition">Send Message</button>
             </form>
         </div>
     </section>
 
-    <footer class="bg-navy text-white py-10 text-center text-lg">
+    <footer class="bg-tealDark text-white py-10 text-center text-lg">
         © 2025 Shokoofeh Jabbari. All rights reserved.
     </footer>
 
@@ -123,4 +134,5 @@
     </script>
 </body>
 </html>
+
 
